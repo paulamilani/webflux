@@ -1,0 +1,8 @@
+curl --location --request GET 'http://localhost:8080/playlist'
+
+curl --location --request POST 'http://localhost:8080/playlist' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "id": "41f03990-9a61-4b53-8d56-4afc03581b14",
+    "nome": "API REST Spring boot 2"
+}'
